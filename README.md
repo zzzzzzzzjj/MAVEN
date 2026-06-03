@@ -73,33 +73,7 @@ Then open `http://localhost:7860` in your browser.
 
 ---
 
-## 📈 Main Results
 
-| Model | QWK ↑ | Accuracy ↑ | F1-macro ↑ | VSMS ↑ |
-|---|---|---|---|---|
-| Qwen3-VL-2B (baseline) | 0.393 | 0.497 | 0.300 | 0.798 |
-| Qwen3-VL-4B | 0.442 | 0.663 | 0.322 | 0.954 |
-| Qwen3-VL-8B | 0.546 | 0.691 | 0.380 | 0.961 |
-| GPT-4o | 0.563 | 0.471 | 0.346 | 0.919 |
-| GPT-5 | 0.637 | 0.724 | 0.520 | 0.962 |
-| Gemini-2.5-Pro | 0.651 | 0.646 | 0.471 | 0.950 |
-| Doubao-Seed-1.6-V | **0.702** | **0.756** | **0.524** | **0.966** |
-| **Qwen3-VL-2B + SA-MDPO (Ours)** | 0.599 | 0.706 | 0.482 | 0.954 |
-| **Qwen3-VL-2B + SA-MDPO + MRC (Ours)** | **0.624** | **0.719** | **0.497** | **0.959** |
-
-Our compact 2B model matches Qwen3-VL-8B (4× smaller) and approaches frontier closed-source baselines.
-
-### Ablation: Effect of SA-MDPO
-
-| Method | Accuracy | QWK | VSMS |
-|---|---|---|---|
-| Baseline (Qwen3-VL-2B) | 0.497 | 0.393 | 0.798 |
-| DPO (balanced) | 0.654 | 0.267 | 0.946 |
-| MDPO (balanced) | 0.670 | 0.445 | 0.964 |
-| **SA-MDPO (balanced)** | **0.706** | **0.599** | 0.954 |
-
-
----
 
 ## 🙏 Acknowledgement
 
