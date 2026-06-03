@@ -1,4 +1,4 @@
-# **"MAVEN: A Macro-Societal Value Evaluation Framework of Multimodal Content with Compact Aligned Evaluators"**
+# **MAVEN: A Macro-Societal Value Evaluation Framework of Multimodal Content with Compact Aligned Evaluators**
 
 
 ## 📖 Overview
