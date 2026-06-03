@@ -30,7 +30,9 @@ conda env create -f environment.yaml
 conda activate samdpo
 ```
 
+## Datasets
 
+Benchmark and training set are accessed at 通过网盘分享的文件：(valuedata.zip)[https://pan.baidu.com/s/1gsNmPKQ951E5ZjKn6yxNBg?pwd=ah8t]
 
 
 
