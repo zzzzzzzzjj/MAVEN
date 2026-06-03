@@ -1,4 +1,4 @@
-name: trainqwenvl
+name: samdpo
 channels:
   - conda-forge
 dependencies:
