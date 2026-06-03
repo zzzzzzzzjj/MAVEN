@@ -19,7 +19,7 @@ deepspeed --master_port 29501 src/train/train_mdpo.py \
     --use_liger_loss True \
     --deepspeed scripts/zero3.json \
     --model_id $MODEL_NAME \
-    --data_path 3861_multilevel.json \
+    --data_path valuedata/3861_multilevel.json \
     --image_folder  valuedata/raw_data \
     --remove_unused_columns False \
     --freeze_vision_tower True \
