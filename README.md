@@ -88,4 +88,4 @@ The code in this repository is released under the **Apache License 2.0** (consis
 
 ## 📬 Contact
 
-For questions about the paper or codebase, please open an issue. Author contact information will be de-anonymized after the review period.
+For questions about the paper or codebase, please open an issue. 
