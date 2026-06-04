@@ -35,7 +35,7 @@ Macrovalue Benchmark and multilevel training set are accessible at [valuedata](h
 
 ## 🚀 Training
 
-### SA-MDPO Fine-tuning on Qwen3-VL (Recommended)
+### SA-MDPO Fine-tuning on Qwen3-VL 
 
 ```bash
 bash scripts/finetune_mdpo_qwen3.sh
